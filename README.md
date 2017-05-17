@@ -1,1 +1,2 @@
-weixin springmvc+ spring+mybatis+mysql+bootstrap+angulars;
+weixin
+springmvc+ spring+mybatis+mysql+bootstrap+angulars
