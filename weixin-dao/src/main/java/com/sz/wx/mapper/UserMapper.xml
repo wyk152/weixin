@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sz.wx.mapper.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.sz.pc.User" >
+    <id column="id" property="id" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="age" property="age"  />
+  </resultMap>
+ 
+  <select id="selectById" parameterType="java.lang.Long" resultType="com.sz.pc.User" >
+    select * from user
+  </select>
+
+</mapper>
